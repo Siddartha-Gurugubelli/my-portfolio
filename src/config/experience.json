@@ -1,0 +1,39 @@
+{
+  "experiences": [
+    {
+      "title": "Software Developer",
+      "company": "Compassion AI",
+      "location": "Chicago, United States",
+      "date": "Jun 2024 - Nov 2024",
+      "description": [
+        "Redesigning and improving the user experience of the citrix workspace for browser and chrome app platforms.",
+        "Building new framework from scratch to render the UI dynamically by layouts and configurations instead of static code.",
+        "Improving the launch experience to the users by adopting modern methods like client side caching, web workers, service and shared workers.",
+        "Implemening the in-house logging and analytics platforms to handle the load at large scale to cut the 3rd patry integrations"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Capgemini",
+      "location": "Mumbai, India",
+      "date": "Oct 2022 - Aug 2023",
+      "description": [
+        "Developing a framework from scratch by following best software design practices to render complex dynamic and configurable web pages without compromising Philips design standards.",
+        "Participating in team-led solutions.Reviewing peer's code for quality. Identify development issues, brainstorm solutions, and constantly improving the solution via testing.",
+        "Ramp-up team of size 10 to apply software engineering practices and implement automation across all elements of solution delivery",
+        "Improved application performance by optimizing database queries and frontend dashboards rendering."
+      ]
+    },
+    {
+      "title": "Machine Learning Intern",
+      "company": "GVPCE",
+      "location": "Visakhapatnam, India",
+      "date": "May 2021 - May 2022",
+      "description": [
+        "Implemented Windows service developed to read e-mails from mail servers automatically and send acknowledgement mails after invoice processing",
+        "Implemented Form builder tool from scratch to create web forms easily and in a less amount of time. It combines the functionality of creating web forms and writing database logics as per the page requests using simple configurations",
+        "Implemented Market insight portals from scratch where the user can see the price trends of the different commodities from the configured websites in a graphical representation. And the user can also view the relevant news from the configured urls and the news will be curated based on keywords"
+      ]
+    }
+  ]
+}

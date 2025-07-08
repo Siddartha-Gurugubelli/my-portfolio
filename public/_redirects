@@ -1,0 +1,6 @@
+# Redirect all SPA routes to index.html
+/*    /index.html   200
+
+# Serve blog index.json directly (not via index.html)
+# Important for fetch("/blogs/index.json")
+/blogs/index.json    /blogs/index.json   200

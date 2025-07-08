@@ -1,0 +1,88 @@
+{
+  "skills": [
+    {
+      "category": "Backend",
+      "skills": [
+        "Node.js",
+        "Python",
+        "FAST API",
+        "Flask",
+        "REST API",
+        "GraphQL",
+        "gRPC",
+        "Java",
+        "Spring Boot",
+        "Hibernate",
+        "Kafka",
+        "Rabbit MQ",
+        "Micro Services",
+        "Distributed Systems"
+      ]
+    },
+    {
+      "category": "Cloud",
+      "skills": [
+        "Amazon MQ",
+        "AWS S3",
+        "Step Functions",
+        "Lambda",
+        "CloudWatch",
+        "CloudFront",
+        "EC2",
+        "ECS",
+        "AWS SES",
+        "AWS SNS",
+        "AWS SQS",
+        "AWS Cognito"
+      ]
+    },
+    {
+      "category": "Database",
+      "skills": ["AWS DynamoDB", "PostgreSQL", "MySQL", "Firebase", "Oracle"]
+    },
+    {
+      "category": "DevOps & Tools",
+      "skills": [
+        "Git",
+        "GitHub",
+        "Docker",
+        "CI/CD",
+        "kubernetes",
+        "Jenkins",
+        "SonarQube"
+      ]
+    },
+    {
+      "category": "Frontend",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Next.js",
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "Redux",
+        "D3.js",
+        "Chart.js",
+        "Material UI"
+      ]
+    },
+    {
+      "category": "Other Programming Skills",
+      "skills": [
+        "Solid Principles",
+        "Design Patterns",
+        "Data Structures and Algorithms",
+        "System Design"
+      ]
+    },
+    {
+      "category": "Testing",
+      "skills": ["Selenium", "Junit", "Pytest", "Mockito", "Mocha", "chai"]
+    },
+    {
+      "category": "Current Exploring Skills",
+      "skills": ["Artificial Intelligence (AI)", "Generative AI", "Agentic AI"]
+    }
+  ]
+}
