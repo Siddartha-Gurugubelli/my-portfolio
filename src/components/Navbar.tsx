@@ -27,7 +27,7 @@ const Navbar = () => {
       href: "/#certifications",
       section: "certifications",
     },
-    { name: "Blogs", href: "/blogs", section: "blogs" },
+    // { name: "Blogs", href: "/blogs", section: "blogs" },
     { name: "Contact", href: "/#contact", section: "contact" },
   ];
 
@@ -143,7 +143,7 @@ const Navbar = () => {
                 ))}
               </div>
 
-              <form onSubmit={handleSearch} className="flex items-center">
+              {/* <form onSubmit={handleSearch} className="flex items-center">
                 <div className="relative">
                   <SearchIcon className="absolute left-2 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                   <Input
@@ -154,12 +154,12 @@ const Navbar = () => {
                     className="pl-8 h-8 w-48 text-sm"
                   />
                 </div>
-              </form>
+              </form> */}
             </div>
 
             <div className="lg:hidden flex items-center gap-2">
-              {/* Mobile Search */}
-              <form onSubmit={handleSearch} className="flex items-center">
+              {/* {Mobile Search} */}
+              {/* <form onSubmit={handleSearch} className="flex items-center">
                 <div className="relative">
                   <SearchIcon className="absolute left-2 top-1/2 transform -translate-y-1/2 h-3 w-3 text-muted-foreground" />
                   <Input
@@ -170,7 +170,7 @@ const Navbar = () => {
                     className="pl-7 h-8 w-24 text-xs"
                   />
                 </div>
-              </form>
+              </form> */}
 
               {/* Mobile Menu Button */}
               <button

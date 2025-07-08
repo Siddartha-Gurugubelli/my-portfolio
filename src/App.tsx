@@ -29,7 +29,7 @@ const App = () => {
             {/* Main routes */}
             <Route path="/" element={<Index />} />
             
-            {/* Blog routes */}
+            {/* Blog routes
             <Route path="/blogs" element={
               <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading blogs...</div>}>
                 <Blogs />
@@ -42,7 +42,7 @@ const App = () => {
               </Suspense>
             } />
             
-            {/* New unified blog viewer route */}
+            { New unified blog viewer route}
             <Route path="/blogs/:categoryId" element={
               <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading category...</div>}>
                 <BlogViewer />
@@ -53,9 +53,9 @@ const App = () => {
               <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading article...</div>}>
                 <BlogViewer />
               </Suspense>
-            } />
+            } /> */}
             
-            {/* Nested blogs route */}
+            {/* Nested blogs route
             <Route path="/nested-blogs" element={
               <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading nested blogs...</div>}>
                 <NestedBlogs />
@@ -66,7 +66,7 @@ const App = () => {
               <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading nested blogs...</div>}>
                 <NestedBlogs />
               </Suspense>
-            } />
+            } /> */}
             
             {/* Catch-all route - MUST be last */}
             <Route path="*" element={<NotFound />} />

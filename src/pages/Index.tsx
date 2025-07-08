@@ -63,11 +63,11 @@ const Index = () => {
             <Projects />
           </div>
           
-          <WaveSeparator variant="secondary" flip />
+          {/* <WaveSeparator variant="secondary" flip />
           
           <div className="bg-gradient-to-br from-blue-900/10 via-background to-purple-900/10">
             <BlogsSection />
-          </div>
+          </div> */}
           
           <WaveSeparator variant="accent" />
           
