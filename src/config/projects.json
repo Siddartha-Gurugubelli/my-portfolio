@@ -2,51 +2,50 @@
 {
   "projects": [
     {
-      "title": "Web Builder | Personal Project",
-      "description": "Developed a configurable web page builder framework to easily render the static and dynamic web pages just by changing the JSON layouts. It also plugged with Authentication, Authorization, Mail, SMS services to enable the basic security and communication layer. Future scope is to make it more flexible to drive any workflow using workflow template concept",
-      "tags": ["React", "Node.js", "Javascript", "TypeScript", "Redux", "Tailwind", "radix-ui"],
-      "imageUrl": "../images/webPagebuilder.avif",
-      "demoUrl": "https://www.tekisworld.com/",
+      "title": "Mental health Assistant | @ Compassion AI, Chicago",
+      "description": "Developed an AI-powered mental health assistant designed to help psychotherapists improve and standardize the quality of care they provide to clients.",
+      "tags": ["Python", "Fast API", "AWS DynaomDB","Natural Language Processing", "LLMs", "AWS","JavaScript", "HTML", "CSS"],
+      "imageUrl": "../images/Roo.webp",
+      "demoUrl": "",
       "githubUrl": ""
     },
     {
-      "title": "Citrix Workspace For Chrome OS And Browser | @ Citrix, Bangalore",
-      "description": "Citrix digital workspace solutions empower companies to securely deliver the apps and data people need to be as productive as possible—no matter where they work or which devices they use.",
-      "tags": ["React", "Node.js", "Javascript", "TypeScript", "Redux", "Java", "WebGL", "WebAssembly"],
-      "imageUrl": "../images/cwa.jpg",
-      "demoUrl": "https://www.youtube.com/watch?v=CifQaYfqu_Q",
-      "githubUrl": "https://docs.citrix.com/en-us/citrix-workspace-app-for-chrome.html"
-    },
-    {
-      "title": "Citrix Telemetry and Analytics | @ Citrix, Bangalore",
-      "description": "Citrix digital workspace solutions empower companies to securely deliver the apps and data people need to be as productive as possible—no matter where they work or which devices they use.",
-      "tags": ["Java","Spring boot", "Kafka", "Docker", "Kubernetes", "Micro Services", "MongoDB", "PostgreSQL"],
+      "title": "Smart COVID Clinic Website | @ Capgemini, Mumbai",
+      "description": "Built a full-stack web application (ReactJS, Spring Boot, PostgreSQL) for streamlined clinic scheduling and doctor-patient appointment management, featuring a responsive, role-based booking interface and robust REST APIs.",
+      "tags": ["Java","Spring boot", "React", "Redux", "Kafka", "Docker", "Kubernetes", "Micro Services", "PostgreSQL", "RestAPI", "Postman"],
       "imageUrl": "../images/analytics.avif",
       "demoUrl": "",
       "githubUrl": ""
     },
     {
-      "title": "Intelli-Space Precision Medicine | @ Philips, Bangalore",
-      "description": "ISPM transforms and enhances the Tumor Board process. It streamlines preparation, enhances review and analysis,and empowers the cancer care team to reach clinical treatment decisions based upon rich dashboards, diagnostic images, reports, and structured patient data. The sessions can be attended virtually or in-person.",
-      "tags": ["Angular", "Type script", "JavaScript", "Jasmine", "Java", "Spring boot", "Python", "Flask", "Micro services", "Junit",
-      "Pytest", "Micro front ends", "Kafka", "JMS"],
+      "title": "E-Commerce Website | Personal Project",
+      "description": "Designed and launched a dynamic e-commerce site utilizing Spring Boot (Java), React, and a microservices architecture, optimizing performance with Redis caching and parallel processing.",
+      "tags": ["Java", "Spring boot", "Micro services", "Junit", "Redis", "Multi-threading", "JavaScript", "ReactJS"],
       "imageUrl": "../images/ISPM.webp",
-      "demoUrl": "https://www.philips.co.in/healthcare/product/HC841011/pathology-genomics-workspace",
+      "demoUrl": "",
       "githubUrl": ""
     },
     {
-      "title": "Radiation Oncology Orchestrator | @ Philips, Bangalore",
-      "description": "This Application helps to manage complexity, improve efficiency, and enable operational excellence in radiotherapy departments. It also provides a harmonized way of working, integrating applications and automating workflow to help reduce the amount of time it takes from receiving a patient referral to the start of their treatment",
-      "tags": ["Angular", "Type script", "JavaScript", "Jasmine", "Java", "Spring boot","Micro services", "Junit", "Micro front ends", "Kafka", "JMS"],
-      "imageUrl": "../images/Roo.webp",
-      "demoUrl": "https://www.youtube.com/watch?v=7kKuuUCqhCE",
+      "title": "Interactive Data Visualization for Demographic Analysis | Academic Project @ ASU",
+      "description": "Created dynamic visualizations with D3.js, including radial bubble charts and network graphs, to enhance interactive demographic analysis and user engagement.",
+      "tags": ["Python", "Flask", "Javascript", "D3.js", "HTML", "SQL", "MySql"],
+      "imageUrl": "../images/cwa.jpg",
+      "demoUrl": "",
       "githubUrl": ""
     },
     {
-      "title": "Spine Invoice processing | @ Infosys, Bangalore",
-      "description": "Spine is a Windows service developed to read e-mails from mail servers automatically and send acknowledgement mails after invoice processing, it also delivers a vast range of choices to user like saving mails in their physical drives, allowing only required file extension attachments to download and sending e-mails through web app.",
-      "tags": ["HTML 5", "CSS 3", "JavaScript", "J-Query", "Bootstrap", "Kendo-UI", "C#", "WCF", "Asp.Net Web API",
-      "LINQ", "Entity Framework", "Windows Forms", "Asp.net MVC", "ADO.Net", "SQL Server (2008 R2, 2012)"],
+      "title": "Predictive Modeling for Term Deposit Subscription | Academic Project @ ASU",
+      "description": "Built predictive analytics pipelines using ensemble methods and transformer architectures for term deposit subscription, outperforming traditional modeling techniques.",
+      "tags": ["Python", "Scikit-learn", "TensorFlow/PyTorch", "Pandas", "NumPy"],
+      "imageUrl": "../images/webPagebuilder.avif",
+      "demoUrl": "",
+      "githubUrl": ""
+    },
+    
+    {
+      "title": "Tele-Medicine Consultation App | Academic Project @ ASU",
+      "description": "Developed a location-aware Android tele-consultation app using Google Maps API, featuring modular components for appointments, patient records, real-time geolocation, and user input validation.",
+      "tags": ["Android", "Java", "Google Maps API", "Firebase", "SQLite", "XML Layouts"],
       "imageUrl": "../images/spine.webp",
       "demoUrl": "",
       "githubUrl": ""
