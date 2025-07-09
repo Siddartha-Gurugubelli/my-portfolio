@@ -1,28 +1,28 @@
-
 {
   "certifications": [
     {
-      "title": "Developing on AWS with AWS Jam",
-      "issuer": "Amazon Web Services",
-      "date": "Sep 2022",
+      "title": "A Robust Segmentation of Retinal Fluids from OCT Images using MCFAR-net",
+      "issuer": "Neurocomputing, Elsevier",
+      "date": "Sep 2024",
       "credentialId": "",
-      "credentialUrl": "",
-      "description": "Validates proficiency in designing distributed systems on AWS, following AWS architectural best practices."
+      "credentialUrl": "https://doi.org/10.1016/j.neucom.2024.128059",
+      "description": "Published in Elsevier's Neurocomputing journal, this paper presents MCFAR-net, a novel deep learning approach for accurate segmentation of retinal fluids from OCT images."
     },
     {
-      "title": "MCSA: Web Applications",
-      "issuer": "Microsoft",
-      "date": "Dec 2017",
-      "credentialId": "Exam 486",
-      "credentialUrl": "https://www.credly.com/badges/0078737c-49d3-4cfb-8068-4c0f9e9d956a/linked_in_profile?trk=public_profile_certification-title",
-      "description": "Earners of the MCSA: Web Applications certification have demonstrated the skills required to implement modern web apps. They are qualified for a position as a web developer or web administrator"
-    },
-    {
-      "title": "Microsoft Certified C# Professional",
-      "issuer": "Microsoft",
-      "date": "Nov 2017",
+      "title": "A Depth-Search Based Lightweight CAR Network for Brain Tumor Segmentation",
+      "issuer": "Neuroscience Informatics, Elsevier",
+      "date": "Dec 2022",
       "credentialId": "Credential ID G437-2425",
-      "description": "programming essential business logic for a variety of application types, hardware, and software platforms using C#"
+      "credentialUrl": "https://doi.org/10.1016/j.neuri.2022.100105",
+      "description": "Published in Elsevier's Neuroscience Informatics journal, this work proposes a computationally efficient CAR network architecture for precise segmentation of brain tumors from MR images."
+    },
+    {
+      "title": "Microsoft Certified: Azure Fundamentals",
+      "issuer": "Microsoft",
+      "date": "Jun 2023",
+      "credentialId": "C6D5CACFEFF3FDF5",
+      "credentialUrl": "https://www.credly.com/badges/3272e8df-9b64-4d1f-9632-feb09c69706e/public_url",
+      "description": "Earners of the Azure Fundamentals certification have demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure."
     }
   ]
 }

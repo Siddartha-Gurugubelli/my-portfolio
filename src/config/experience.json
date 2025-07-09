@@ -6,22 +6,26 @@
       "location": "Chicago, United States",
       "date": "Jun 2024 - Nov 2024",
       "description": [
-        "Redesigning and improving the user experience of the citrix workspace for browser and chrome app platforms.",
-        "Building new framework from scratch to render the UI dynamically by layouts and configurations instead of static code.",
-        "Improving the launch experience to the users by adopting modern methods like client side caching, web workers, service and shared workers.",
-        "Implemening the in-house logging and analytics platforms to handle the load at large scale to cut the 3rd patry integrations"
+        "Introduced key-set pagination in FastAPI endpoints and optimized DynamoDB query filters to improve database efficiency.",
+        "Implemented Global Secondary Indexes (GSI) in DynamoDB, accelerating data access performance and reducing latency.",
+        "Architected a resilient, distributed file ingestion system leveraging multipart S3 uploads, presigned URLs, and S3 Transfer Acceleration to enhance global upload efficiency and reliability.",
+        "Lowered monthly transcription costs by replacing AWS Transcribe with an in-house speech-to-text engine (containerized on EC2 and leveraging advanced NLP/acoustic modeling).",
+        "Cut report generation time by implementing AWS Step Functions to parallelize AWS Lambda functions.",
+        "Fine-tuned an open-source LLM for speech emotion recognition using Librosa-extracted features like pitch and MFCC, achieving high accuracy in emotion classification."
       ]
     },
     {
       "title": "Software Engineer",
       "company": "Capgemini",
       "location": "Mumbai, India",
-      "date": "Oct 2022 - Aug 2023",
+      "date": "Feb 2022 - Aug 2023",
       "description": [
-        "Developing a framework from scratch by following best software design practices to render complex dynamic and configurable web pages without compromising Philips design standards.",
-        "Participating in team-led solutions.Reviewing peer's code for quality. Identify development issues, brainstorm solutions, and constantly improving the solution via testing.",
-        "Ramp-up team of size 10 to apply software engineering practices and implement automation across all elements of solution delivery",
-        "Improved application performance by optimizing database queries and frontend dashboards rendering."
+        "Decomposed a legacy monolith into Spring Boot microservices with RESTful APIs and centralized config management, enabling independent deployments and reducing release cycle times.",
+        "Integrated Apache Kafka to enable decoupled real-time pipelines and asynchronous communication between microservices.",
+        "Leveraged gRPC for efficient inter-service communication between microservices.",
+        "Implemented rate limiting to manage API traffic and reduce error rates during spikes.",
+        "Enhanced web application security with JWT-based authentication and OAuth 2.0 using Spring Security, reducing unauthorized access attempts.",
+        "Implemented Docker containerization deployed via AWS ECS, enabling rapid autoscaling to handle high traffic and reducing deployment time."
       ]
     },
     {
@@ -30,9 +34,10 @@
       "location": "Visakhapatnam, India",
       "date": "May 2021 - May 2022",
       "description": [
-        "Implemented Windows service developed to read e-mails from mail servers automatically and send acknowledgement mails after invoice processing",
-        "Implemented Form builder tool from scratch to create web forms easily and in a less amount of time. It combines the functionality of creating web forms and writing database logics as per the page requests using simple configurations",
-        "Implemented Market insight portals from scratch where the user can see the price trends of the different commodities from the configured websites in a graphical representation. And the user can also view the relevant news from the configured urls and the news will be curated based on keywords"
+        "Led a research team of 4 in developing innovative deep learning frameworks (LWCAR-Net, MCSAR-Net) for medical image segmentation.",
+        "Implemented novel deep learning architectures with components like Context Segment Modules and Feature Synthesizers to enhance multiscale feature extraction and improve true positive rates in medical imaging.",
+        "Designed lightweight deep learning models that significantly reduce computational overhead while maintaining high performance, improving diagnostic efficiency.",
+        "Achieved clinical-grade accuracy for medical imaging applications, significantly reducing false negatives and enhancing early diagnosis of critical conditions."
       ]
     }
   ]
