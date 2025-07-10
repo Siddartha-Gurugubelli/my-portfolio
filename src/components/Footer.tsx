@@ -1,49 +1,53 @@
-
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Separator } from "@/components/ui/separator";
 import { PersonalInfo, SocialData, SocialLinkData } from "@/models/blog";
 import personalJson from "@/config/personal.json";
 import socialJson from "@/config/social.json";
-import { GithubIcon, LinkedinIcon, TwitterIcon, MailIcon } from 'lucide-react';
+import { GithubIcon, LinkedinIcon, TwitterIcon, MailIcon } from "lucide-react";
 
 const Footer = () => {
   const [personalInfo, setPersonalInfo] = useState<PersonalInfo | null>(null);
   const [socialLinks, setSocialLinks] = useState<SocialLinkData[]>([]);
-  
+
   useEffect(() => {
     setPersonalInfo(personalJson as PersonalInfo);
     setSocialLinks((socialJson as SocialData).socialLinks);
   }, []);
 
   const currentYear = new Date().getFullYear();
-  
+
   const getIconComponent = (iconName: string) => {
-    switch(iconName) {
-      case 'LinkedinIcon': return LinkedinIcon;
-      case 'GithubIcon': return GithubIcon;
-      case 'TwitterIcon': return TwitterIcon;
-      case 'MailIcon': return MailIcon;
-      default: return GithubIcon;
+    switch (iconName) {
+      case "LinkedinIcon":
+        return LinkedinIcon;
+      case "GithubIcon":
+        return GithubIcon;
+      case "TwitterIcon":
+        return TwitterIcon;
+      case "MailIcon":
+        return MailIcon;
+      default:
+        return GithubIcon;
     }
   };
 
   const navigationLinks = [
-    { name: 'Home', href: '/#home' },
-    { name: 'About', href: '/#about' },
-    { name: 'Experience', href: '/#experience' },
-    { name: 'Projects', href: '/#projects' },
+    { name: "Home", href: "/#home" },
+    { name: "About", href: "/#about" },
+    { name: "Experience", href: "/#experience" },
+    { name: "Projects", href: "/#projects" },
   ];
 
   const resourceLinks = [
-    { name: 'Skills', href: '/#skills' },
-    { name: 'Certifications', href: '/#certifications' },
-    { name: 'Blogs', href: '/blogs' },
-    { name: 'Contact', href: '/#contact' },
+    { name: "Skills", href: "/#skills" },
+    { name: "Certifications", href: "/#certifications" },
+    { name: "Blogs", href: "/blogs" },
+    { name: "Contact", href: "/#contact" },
   ];
-  
+
   if (!personalInfo) return null;
-  
+
   return (
     <footer className="py-16 px-6 md:px-10 bg-gradient-to-b from-background/95 to-background">
       <div className="max-w-6xl mx-auto">
@@ -51,10 +55,13 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <h3 className="text-xl font-semibold mb-2">{personalInfo.name}</h3>
-            <p className="text-sm text-muted-foreground mb-4">{personalInfo.title}</p>
+            <p className="text-sm text-muted-foreground mb-4">
+              {personalInfo.title}
+            </p>
             <p className="text-sm text-muted-foreground mb-6 max-w-md">
-              Full-stack developer passionate about creating efficient, scalable solutions 
-              and sharing knowledge through technical articles and open-source contributions.
+              Full-stack developer with a passion for clean architecture and
+              scalable APIs, experienced in building cloud-native applications
+              and AI-powered systems using modern web technologies.{" "}
             </p>
             <div className="flex items-center gap-3">
               {socialLinks.map((link, index) => {
@@ -74,7 +81,7 @@ const Footer = () => {
               })}
             </div>
           </div>
-          
+
           {/* Navigation Column */}
           <div>
             <h4 className="text-sm font-semibold mb-4">Navigation</h4>
@@ -91,7 +98,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          
+
           {/* Resources Column */}
           <div>
             <h4 className="text-sm font-semibold mb-4">Resources</h4>
@@ -109,9 +116,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
+
         <Separator className="mb-8" />
-        
+
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
             © {currentYear} {personalInfo.name}. All rights reserved.
