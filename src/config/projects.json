@@ -5,7 +5,7 @@
       "title": "Mental health Assistant | @ Compassion AI, Chicago",
       "description": "Developed an AI-powered mental health assistant designed to help psychotherapists improve and standardize the quality of care they provide to clients.",
       "tags": ["Python", "Fast API", "AWS DynaomDB","Natural Language Processing", "LLMs", "AWS","JavaScript", "HTML", "CSS"],
-      "imageUrl": "../images/Roo.webp",
+      "imageUrl": "../images/imageMA.png",
       "demoUrl": "",
       "githubUrl": ""
     },
@@ -13,7 +13,7 @@
       "title": "Smart COVID Clinic Website | @ Capgemini, Mumbai",
       "description": "Built a full-stack web application (ReactJS, Spring Boot, PostgreSQL) for streamlined clinic scheduling and doctor-patient appointment management, featuring a responsive, role-based booking interface and robust REST APIs.",
       "tags": ["Java","Spring boot", "React", "Redux", "Kafka", "Docker", "Kubernetes", "Micro Services", "PostgreSQL", "RestAPI", "Postman"],
-      "imageUrl": "../images/analytics.avif",
+      "imageUrl": "../images/imageCCW.png",
       "demoUrl": "",
       "githubUrl": ""
     },
@@ -21,7 +21,7 @@
       "title": "E-Commerce Website | Personal Project",
       "description": "Designed and launched a dynamic e-commerce site utilizing Spring Boot (Java), React, and a microservices architecture, optimizing performance with Redis caching and parallel processing.",
       "tags": ["Java", "Spring boot", "Micro services", "Junit", "Redis", "Multi-threading", "JavaScript", "ReactJS"],
-      "imageUrl": "../images/ISPM.webp",
+      "imageUrl": "../images/imageECM.png",
       "demoUrl": "",
       "githubUrl": ""
     },
@@ -29,7 +29,7 @@
       "title": "Interactive Data Visualization for Demographic Analysis | Academic Project @ ASU",
       "description": "Created dynamic visualizations with D3.js, including radial bubble charts and network graphs, to enhance interactive demographic analysis and user engagement.",
       "tags": ["Python", "Flask", "Javascript", "D3.js", "HTML", "SQL", "MySql"],
-      "imageUrl": "../images/cwa.jpg",
+      "imageUrl": "../images/analytics.avif",
       "demoUrl": "",
       "githubUrl": ""
     },
@@ -37,7 +37,7 @@
       "title": "Predictive Modeling for Term Deposit Subscription | Academic Project @ ASU",
       "description": "Built predictive analytics pipelines using ensemble methods and transformer architectures for term deposit subscription, outperforming traditional modeling techniques.",
       "tags": ["Python", "Scikit-learn", "TensorFlow/PyTorch", "Pandas", "NumPy"],
-      "imageUrl": "../images/webPagebuilder.avif",
+      "imageUrl": "../images/imagePTD.png",
       "demoUrl": "",
       "githubUrl": ""
     },
@@ -46,7 +46,7 @@
       "title": "Tele-Medicine Consultation App | Academic Project @ ASU",
       "description": "Developed a location-aware Android tele-consultation app using Google Maps API, featuring modular components for appointments, patient records, real-time geolocation, and user input validation.",
       "tags": ["Android", "Java", "Google Maps API", "Firebase", "SQLite", "XML Layouts"],
-      "imageUrl": "../images/spine.webp",
+      "imageUrl": "../images/imageTMC.png",
       "demoUrl": "",
       "githubUrl": ""
     }
