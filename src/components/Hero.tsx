@@ -1,4 +1,3 @@
-
 import { useEffect, useRef, useState } from "react";
 import { ArrowDownIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -110,7 +109,7 @@ const Hero = () => {
           >
             Contact Me
           </Button>
-          <a href={personalInfo.resumeUrl} download>
+          <a href={personalInfo.resumeUrl} target="_blank" rel="noopener noreferrer">
             <Button 
               variant="outline" 
               size="lg" 
