@@ -1,7 +1,8 @@
-
+// WaveSeparator.tsx
 import { cn } from "@/lib/utils";
 
 interface WaveSeparatorProps {
+  // Reverting to original semantic variants, which now map to the new palette
   variant?: 'primary' | 'secondary' | 'accent' | 'muted';
   flip?: boolean;
   className?: string;
@@ -9,10 +10,11 @@ interface WaveSeparatorProps {
 
 const WaveSeparator = ({ variant = 'primary', flip = false, className }: WaveSeparatorProps) => {
   const colorMap = {
-    primary: 'text-blue-500/20',
-    secondary: 'text-purple-500/20',
-    accent: 'text-emerald-500/20',
-    muted: 'text-slate-500/20'
+    // These will now correctly pull from your CSS variables via Tailwind's color system
+    primary: 'text-primary/10',   
+    secondary: 'text-secondary/90', 
+    accent: 'text-accent/50',     
+    muted: 'text-muted/50'
   };
 
   return (
@@ -33,7 +35,7 @@ const WaveSeparator = ({ variant = 'primary', flip = false, className }: WaveSep
         />
         <path
           d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
-          opacity=".5"
+          opacity=".50"
           fill="currentColor"
         />
         <path

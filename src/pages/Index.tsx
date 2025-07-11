@@ -24,53 +24,68 @@ const Index = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
+        // The overall page background is now set by `bg-background` and text by `text-foreground`
         className="min-h-screen bg-background text-foreground relative no-x-overflow"
       >
         <Navbar />
         <main className="pt-[120px]">
-          <div className="bg-gradient-to-br from-slate-900 via-purple-900/20 to-slate-900">
+          {/* Hero Section: Using primary and secondary for a deep blue gradient */}
+          {/* from-primary is #3D52A0, via-secondary/30 is #7091E6 with 30% opacity */}
+          <div className="bg-gradient-to-br from-primary via-secondary/30 to-primary">
             <Hero />
           </div>
 
+          {/* Wave Separator: Using semantic variants defined in index.css */}
           <WaveSeparator variant="primary" />
 
-          <div className="bg-gradient-to-br from-background to-slate-800/20">
+          {/* About Section: Background and a subtle accent */}
+          {/* from-background is #EDE8F5, to-accent/20 is #ADBBDA with 20% opacity */}
+          <div className="bg-gradient-to-br from-background to-accent/20">
             <About />
           </div>
 
           <WaveSeparator variant="secondary" flip />
 
-          <div className="bg-gradient-to-br from-purple-900/10 via-background to-blue-900/10">
+          {/* Experience Section: Secondary and background */}
+          {/* from-secondary/10 is #7091E6 with 10% opacity, via-background is #EDE8F5, to-primary/10 is #3D52A0 with 10% opacity */}
+          <div className="bg-gradient-to-br from-secondary/10 via-background to-primary/10">
             <Experience />
           </div>
 
           <WaveSeparator variant="primary" />
 
-          <div className="bg-gradient-to-br from-background to-purple-900/10">
+          {/* Projects Section: Background and muted */}
+          {/* from-background is #EDE8F5, to-muted/10 is #8697C4 with 10% opacity */}
+          <div className="bg-gradient-to-br from-background to-muted/10">
             <Projects />
           </div>
 
           <WaveSeparator variant="accent" flip />
 
-          <div className="bg-gradient-to-br from-background to-emerald-900/10">
+          {/* Skills Section: Background and primary */}
+          {/* from-background is #EDE8F5, to-primary/10 is #3D52A0 with 10% opacity */}
+          <div className="bg-gradient-to-br from-background to-primary/10">
             <Skills />
           </div>
 
           <WaveSeparator variant="muted" />
 
-          <div className="bg-gradient-to-br from-slate-800/10 via-background to-slate-700/10">
+          {/* Certifications Section: Muted and background */}
+          {/* from-muted/10 is #8697C4 with 10% opacity, via-background is #EDE8F5, to-accent/10 is #ADBBDA with 10% opacity */}
+          <div className="bg-gradient-to-br from-muted/10 via-background to-accent/10">
             <Certifications />
           </div>
 
           {/* <WaveSeparator variant="secondary" flip />
-          
+
           <div className="bg-gradient-to-br from-blue-900/10 via-background to-purple-900/10">
             <BlogsSection />
           </div> */}
 
           <WaveSeparator variant="accent" flip />
 
-          <div className="bg-gradient-to-br from-background to-slate-800/20">
+
+          <div className="bg-gradient-to-br from-background to-accent/20">
             <Contact />
           </div>
         </main>
